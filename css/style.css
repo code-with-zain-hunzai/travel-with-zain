@@ -212,7 +212,7 @@ header .logo {
 
 .box .box-img img:hover {
     transform: translateY(-10px);
-    /* transition: 0.2 all linear; */
+    /* transition: linear; */
 }
 
 .box h3 {
@@ -323,6 +323,12 @@ header .logo {
 
 }
 
+@media(max-width:1890px) {
+    .home-text {
+        margin-bottom: 100px;
+    }
+}
+
 @media(max-width: 1080px) {
     .home-text {
         padding: 0 100px;
@@ -382,7 +388,7 @@ header .logo {
         color: var(--text-color);
     }
 
-    .oder-list a:hover{
+    .oder-list a:hover {
         color: var(--main-color);
         border-bottom: 1px solid var(--main-color);
     }
